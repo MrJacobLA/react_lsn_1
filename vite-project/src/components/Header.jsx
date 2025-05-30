@@ -3,8 +3,10 @@ import Navigation from "./Navigation"; //Hier veschachteln wir die NAv hier in H
 
 function Header() {
   return (
-    <header>
-      <h1>Meine Website</h1>
+    <header className="bg-primary text-white p-6 text-center">
+      <h1 className="text-5xl font-extrabold mb-6 w-screen">
+        Meine React Aufgaben-Website
+      </h1>
       <Navigation />
     </header>
   );
