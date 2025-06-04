@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Footer from "./components/Footer";
 import Student from "./components/Student";
+import Survey from "./components/Survey";
 
 // const studentData = {
 //   id: 1,
@@ -16,7 +17,7 @@ import Student from "./components/Student";
 // };
 function App() {
   return (
-    <div className="min-h-screen bg-base-200 overflow-x-hidden min-h-screen flex flex-col bg-base-200">
+    <div className="min-h-screen bg-base-200 overflow-x-hidden flex flex-col ">
       {/* min-h-screen flex flex-col bg-base-200 für den footer ganz unten  */}
       <Header />
       <Hero />
@@ -34,7 +35,8 @@ In einem flexbox-Layout (flex flex-col auf dem Elternelement) sorgt mt-auto daf�
 Das ist ein gängiger Trick, um z.B. einen Footer immer am unteren Rand der Seite zu halten, auch wenn der Inhalt darüber wenig Platz einnimmt.
 Zusammengefasst:
 Die Zeile sorgt dafür, dass der Footer immer am unteren Rand der Seite bleibt, indem sie den verfügbaren Platz zwischen den oberen Komponenten und dem Footer ausfüllt.  */}
-
+      {/* ⬇️ Neue Umfrage-Komponente */}
+      <Survey />
       <Footer />
     </div>
   );

@@ -260,17 +260,17 @@ const students = [
     gpa: 81,
     graduate: false,
   },
-  {
-    id: 10,
-    firstName: "George",
-    lastName: "Miller",
-    age: 32,
-    course: "Data Science",
-    city: "Boston",
-    picture: "https://randomuser.me/api/portraits/men/10.jpg",
-    gpa: 90,
-    graduate: true,
-  },
+  // {
+  //   id: 10,
+  //   firstName: "George",
+  //   lastName: "Miller",
+  //   age: 32,
+  //   course: "Data Science",
+  //   city: "Boston",
+  //   picture: "https://randomuser.me/api/portraits/men/10.jpg",
+  //   gpa: 90,
+  //   graduate: true,
+  // },
 ];
 
 // 📘 Hilfsfunktion: wandelt gpa (z.B. 95) in eine Note um (z.B. A)
